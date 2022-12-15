@@ -1,0 +1,25 @@
+ASSIGNMENT: identifier:1 short string
+false
+data: short string
+The string short string will be expanded as :
+for stuf: identifier:2
+false
+for stuf: body
+{2=i, 1=a}
+{a=[short string], i=[]}
+LOOPING FOR STRING
+s h o r t   s t r i n g 
+ASSIGNMENT: identifier:3 [1, [2], 3, [4, [5]]]
+false
+The elements of [1, [2], 3, [4, [5]]] will be printed one on their own lines:
+for stuf: identifier:4
+true
+for stuf: body
+{4=elem, 3=l, 2=i, 1=a}
+{l=[[1, [2], 3, [4, [5]]]], a=[short string], i=[], elem=[]}
+LOOPING FOR LOOP
+1
+[2]
+3
+[4, [5]]
+null

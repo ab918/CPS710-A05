@@ -1,0 +1,20 @@
+then clause works
+else clause works
+elif clause works
+else clause in elif works
+1<2
+1<=1
+1<=2
+2>1
+1>=1
+2>=1
+1=1
+1!=2
+null strings are equal
+a=a
+abcdefg=abcdefg
+abcd!=abcdefg
+abcdefg!=abCdefg
+null string is contained in another
+abc in 11abc22
+12 in 11abc122

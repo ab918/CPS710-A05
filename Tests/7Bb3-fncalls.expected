@@ -1,0 +1,6 @@
+call h(1,10), RETURN: {i=[1], h=[body], n=[10]}
+The activation stack now looks like this: [i, n]
+before remove: {i=[1], h=[body], n=[10]}
+after remove: {i=[], h=[body], n=[]}
+java.lang.NullPointerException
+java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "Node.jjtAccept(HLVisitor, Object)" is null

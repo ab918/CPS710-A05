@@ -1,0 +1,4 @@
+HLEval.java: HL.jjt
+	jjtree HL.jjt
+	javacc AST/HL.jj
+	sed s/HLDefaultVisitor/HLEval/ < AST/HLDefaultVisitor.java > HLEval.java

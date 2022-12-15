@@ -1,0 +1,34 @@
+concatenating :sum
+null
+concatenating :sum
+null
+concatenating :sum
+null12
+concatenating :sum
+null34
+concatenating :sum
+34
+removing :sum
+java.lang.NullPointerException: Cannot invoke "String.length()" because "<parameter1>" is null
+-5
+removing :sum
+java.lang.NullPointerException: Cannot invoke "String.length()" because "<parameter1>" is null
+-34
+
+123
+ababababab
+
+
+0
+90
+7890
+concatenating :sum
+concatenating :sum
+concatenating :sum
+concatenating :sum
+concatenating :sum
+concatenating :sum
+concatenating :sum
+concatenating :sum
+concatenating :sum
+-2-2-2

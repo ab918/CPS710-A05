@@ -1,0 +1,9 @@
+2 is an int
+2 is not a str
+2 is not a lst
+hello is not an int
+hello is a str
+hello is not a lst
+[1,2] is not an int
+[1,2] is not a str
+[1,2] is a lst
